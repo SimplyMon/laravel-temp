@@ -25,10 +25,10 @@ Follow these steps to set up the project locally:
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/SimplyMon/laravel-temp.git
 
 # Navigate into the project folder
-cd <project-folder>
+cd laravel-temp
 
 # Install PHP dependencies
 composer install
@@ -45,14 +45,14 @@ php artisan key:generate
 # Optimize Laravel performance
 php artisan optimize
 
-# Build assets for development
-npm run dev
-
 # Alternatively, build assets for production
 npm run build
 
+# Build assets for development
+npm run dev
+
 # Start the local development server
-php artisan serve
+composer run dev
 ```
 
 ## License
