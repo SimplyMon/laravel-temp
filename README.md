@@ -1,6 +1,6 @@
 # Laravel Tailwind Template
 
-A clean Laravel template project using **Laravel** and **Tailwind CSS** with a well-organized structure. This template provides a ready-to-use starting point for modern web applications with Laravel and Tailwind.
+A clean Laravel template project using **Laravel** , **Tailwind CSS** and **SweetAlert** with a well-organized structure. This template provides a ready-to-use starting point for modern web applications with Laravel and Tailwind.
 
 **Made by Simon Pasag | All Rights Reserved**
 
