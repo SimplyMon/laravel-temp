@@ -42,6 +42,9 @@ cp .env.example .env
 # Generate application key
 php artisan key:generate
 
+# Migrations
+php artisan migrate
+
 # Optimize Laravel performance
 php artisan optimize
 
