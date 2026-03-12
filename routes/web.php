@@ -6,8 +6,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/dashboard', function () {
-    return view('screens.dashboard.index');
+    return view('screens.Dashboard.index');
 });
 Route::get('/departments', function () {
-    return view('screens.departments.index');
+    return view('screens.Departments.index');
 });
+
+Route::get('/departments', function () {
+    return view('screens.Departments.index');
+})->name('departments.index');
