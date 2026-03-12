@@ -48,14 +48,11 @@ php artisan migrate
 # Optimize Laravel performance
 php artisan optimize
 
-# Alternatively, build assets for production
-npm run build
-
-# Build assets for development
+# run frontend assets
 npm run dev
 
-# Start the local development server
-composer run dev
+# open new terminal and run assets for backend development
+php artisan serve
 ```
 
 ## License
