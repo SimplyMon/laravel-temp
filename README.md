@@ -33,6 +33,9 @@ cd laravel-temp
 # Install PHP dependencies
 composer install
 
+# If you got error repeat the process until its done.
+composer install
+
 # Install Node.js dependencies
 npm install
 
@@ -48,10 +51,10 @@ php artisan migrate
 # Optimize Laravel performance
 php artisan optimize
 
-# run frontend assets
+# Run frontend assets
 npm run dev
 
-# open new terminal and run assets for backend development
+# Open new terminal and run assets for backend development
 php artisan serve
 ```
 
