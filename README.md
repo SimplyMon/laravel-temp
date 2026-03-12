@@ -48,10 +48,10 @@ php artisan migrate
 # Optimize Laravel performance
 php artisan optimize
 
-# Alternatively, build assets for production
-npm run build
+# run frontend assets
+npm run dev
 
-# Build assets for development
+# open new terminal and run assets for backend development
 php artisan serve
 ```
 
