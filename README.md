@@ -52,10 +52,7 @@ php artisan optimize
 npm run build
 
 # Build assets for development
-npm run dev
-
-# Start the local development server
-composer run dev
+php artisan serve
 ```
 
 ## License
